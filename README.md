@@ -4,7 +4,7 @@
 10+ years of demand and supply planning across 35 countries. I design AI systems that take planning problems from pilot to production, with a human approving every decision that leaves the system.
 
 ## Currently building — in progress, not released yet
-**Hidden-demand diagnostic:** a tool that checks planning parameters (lead time, safety stock, safety time, coverage days) for demand that is already known but buried in the settings.
+**Hidden-demand diagnostic** — **[in progress]**: a tool that checks planning parameters (lead time, safety stock, safety time, coverage days) for demand that is already known but buried in the settings.
 - Approach: MCP server · RAG · agent · human-in-the-loop review
 - Data: synthetic CSV only, no company data
 - Release plan: small starter script → main project → MCP server → eval report
