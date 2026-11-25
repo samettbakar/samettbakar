@@ -1,29 +1,21 @@
 # Samet Bakar
-**AI Solutions Architect | Supply Chain Planning**
+**AI Solutions Architect | Supply Chain & S&OP | Pilot to Production**
 
-I turn supply chain planning experience into scalable, autonomous solutions built on AI agents and system integrations.
+10+ years of demand and supply planning across 35 countries. I design AI systems that take planning problems from pilot to production, with a human approving every decision that leaves the system.
 
-## What I build
-- **[SENSE](https://github.com/samettbakar/sense)** – LLM-based multi-agent system. A reviewer agent checks every output, nothing is sent or deleted without human approval, and routine tasks go to lower-cost models. *Running – used for own work.*
-- **Forecasting & FVA** – Time-series forecasting skill with automated monitoring and an FVA table that shows which planner overrides add value. *Built – applied to an anonymized womenswear case.*
-- **AI Markdown & Clearance Simulator** – Splits excess stock by SKU into sell, transfer, discount and export routes and shows the cash each pricing scenario returns. *Built.*
-- **EU CBAM & EmpCo Compliance Workflows** – AI-assisted workflows for emissions data and claim evidence. *Design complete – named COP31 candidate projects.* Legal review outside scope.
+## Currently building — in progress, not released yet
+**Hidden-demand diagnostic:** a tool that checks planning parameters (lead time, safety stock, safety time, coverage days) for demand that is already known but buried in the settings.
+- Approach: MCP server · RAG · agent · human-in-the-loop review
+- Data: synthetic CSV only, no company data
+- Release plan: small starter script → main project → MCP server → eval report
 
 ## Background
-10+ years of demand and supply planning across 35 countries at LC Waikiki, Brooks Brothers and Ecrou Group.
-- Held weekly store-level forecasts within 95–105% of actual sales.
-- Lifted gross margin from 60% to 71% across 40 stores.
-- Cleared 62% of ~40,000 excess units in four months.
-- SAP migration key user: requirements, master data mapping, interface testing, UAT and go-live.
+- Demand planning, supply planning and S&OP/IBP at LC Waikiki, Brooks Brothers and Ecrou Group
+- Held weekly store-level forecasts within 95–105% of actual sales
+- SAP migration key user: requirements, master data mapping, interface testing, UAT, go-live
 
-## How I build AI
-- Human approval on every step that leaves the system
-- Reviewer agents that check outputs before delivery
-- Guardrails, access control and audit trails from day one
-- Forecast Value Added (FVA) to measure whether AI or people improve the plan
-
-## Tools
-LLM agents · Claude Code · SAP (ERP, IBP) · Blue Yonder · Power BI · Excel (Power Query) · APIs
+## Case work
+- [supply-chain-case](https://github.com/samettbakar/supply-chain-case): anonymized womenswear planning case (pricing, assortment, MOQ, lead time, inventory risk)
 
 ## Contact
 [Portfolio](https://samettbakar.github.io) · [LinkedIn](https://linkedin.com/in/sametbakar) · samettbakar@gmail.com
